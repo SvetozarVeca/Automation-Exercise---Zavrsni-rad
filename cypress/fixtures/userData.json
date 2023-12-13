@@ -1,0 +1,19 @@
+{
+  "userName": "David",
+  "title": "Mr.",
+  "password": "1",
+  "email" : "test@test111.com",
+  "day": "4",
+  "month": "11",
+  "year": "2017",
+  "firstName": "David",
+  "lastName": "Milinkovic",
+  "company": "vrtic",
+  "address1": "Jevremova",
+  "address2": "macvin stadion",
+  "country": "Canada",
+  "state": "Ontario",
+  "city": "Toronto",
+  "zipCode": "M4V",
+  "mobileNumber": "1234567890"
+}
