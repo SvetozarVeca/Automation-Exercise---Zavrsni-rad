@@ -8,7 +8,6 @@ export default class AccountCreatedPage {
     }
 
     continueFromAccountIsCreatedPage() {
-        cy.pause()
         cy.get(this.continueButtonSelector).click()
     }
 }

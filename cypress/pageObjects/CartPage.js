@@ -8,7 +8,6 @@ export default class CartPage {
     }
 
     removeProductFromCartByName(itemName) {
-        cy.pause()
         cy.get(this.itemsInCartSelector).each(($el, index, $list) => {
             if ($el.find('h4').text() === itemName) {
                 cy.wrap($el.find('.cart_delete a')).click()
@@ -17,7 +16,6 @@ export default class CartPage {
     }
 
     proceedToCheckout() {
-        cy.pause()
         cy.get(this.checkoutButtonSelector).click()
     }
 

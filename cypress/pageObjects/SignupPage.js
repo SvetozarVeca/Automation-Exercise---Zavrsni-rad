@@ -43,7 +43,6 @@ export default class SignupPage {
         cy.get(this.companySelector).type(user.company)
         cy.get(this.addressSelector).type(user.address1)
         cy.get(this.address2Selector).type(user.address2)
-        cy.pause()
         if ((user.country === "United States") || (user.country === "Canada") || (user.country === "Australia") || (user.country === "Israel") || (user.country === "New Zeland") || (user.country === "Singapore")) {
             cy.get(this.countrySelector).select(user.country)
         }
@@ -51,7 +50,6 @@ export default class SignupPage {
         cy.get(this.citySelector).type(user.city)
         cy.get(this.zipcodeSelector).type(user.zipCode)
         cy.get(this.mobileNumberSelector).type(user.mobileNumber)
-        cy.pause()
         cy.get(this.createAccountButtonSelector).click()
     }
 }

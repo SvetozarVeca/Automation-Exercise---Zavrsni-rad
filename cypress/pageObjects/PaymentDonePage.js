@@ -19,7 +19,6 @@ export default class PaymentDonePage {
     }
 
     continueToHomePage() {
-        cy.pause()
         cy.get(this.continueButtonSelector).click()
     }    
 }

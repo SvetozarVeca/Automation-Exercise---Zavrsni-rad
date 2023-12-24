@@ -21,7 +21,6 @@ export default class HomePage {
     }
 
     goToProductsPage() {
-        cy.pause()
         cy.get(this.productsPageButtonSelector).click()
     }
 

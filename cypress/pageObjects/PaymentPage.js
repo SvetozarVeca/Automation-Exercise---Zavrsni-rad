@@ -16,7 +16,6 @@ export default class PaymentPage {
     }
 
     ClickPayAndConfirm() {
-        cy.pause()
         cy.get(this.submitButtonSelector).click()
     }
 }

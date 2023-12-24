@@ -13,7 +13,6 @@ export default class CheckoutPage{
     }
 
     ClickOnPlaceOrder(){
-        cy.pause()
         cy.get(this.placeOrderButtonSelector).click()
     }
 }

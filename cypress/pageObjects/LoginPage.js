@@ -13,7 +13,6 @@ export default class LoginPage{
     }
 
     createNewUser(userName,password){
-        cy.pause()
         cy.get(this.signUpNameSelector).type(userName)
         cy.get(this.signUpEmailSelector).type(password)
         cy.get(this.signUpButtonSelector).click()
